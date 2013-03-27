@@ -1,4 +1,5 @@
-﻿\Chapter{Lập trình cơ bản NodeJS}
+\chapter{Lập trình cơ bản NodeJS}
+\label{ch: Lập trình cơ bản NodeJS}
 
 \section{Một số module làm việc vào ra}
 		Node cung cấp một số module làm việc trực tiếp với file.
@@ -34,7 +35,7 @@
 			
 		\end{itemize}
 
-	\subsection{Module  path}
+	\subsection{Module path}
 
 		Module này chứa các tiện ích giúp xác định và biến đổi đường dẫn của tệp. Một số phương thức chính:
 		\begin{itemize}
@@ -42,10 +43,10 @@
 			\item join: nối địa chỉ với nhau
 		\end{itemize}
 		
-		%\begin{figure}[h]
-		%	\centering
-			%\includegraphics[scale=0.7]{}
-		%\end{figure}
+		\begin{figure}[-h]
+			\centering
+			\includegraphics[scale=0.7]{3_3_0}
+		\end{figure}
 
 %================== Một số module về mạng ===================
 \section{Một số module về mạng}
@@ -180,14 +181,74 @@ req.end(); //send request
 	
 	Đây là kết quả khi thực hiện xong chương trình:
 	Ngoài ra bạn cũng có thể sử dụng http.get() trong trường hợp phương thức HTTP chỉ là GET, cách sử dụng cũng tương tự như trên.
-	\begin{figure}[h]
+	\begin{figure}[-h]
 		\centering
 		\includegraphics[scale=0.7]{3_3_6}
 	\end{figure}
 	
+\newpage
+	
 %=========================================
-\subsection{net}
-	Module net là lớp bao của module http. Module này cho phép thiết lập và tạo các TCP server.
+\subsection{Net}
+	Module net là lớp bao của module http. Module này cho phép thiết lập và tạo các TCP server. Nó chứa đựng các phướng thức cho việc tạo cả một server và client. Chúng ta có thể sử dụng module này với \textbf{require('net');}\\
+Một số phương thức của module Net:
+        \subsubsetion{net.createServer([options], [connectionListener])}
+        Tạo ra một TCP server mới. Thamm số connectionListener được tự động thiết lập việc bắt sự kiện "connection". options là một đối tượng với mặc định \\
+            \begin{minted}[linenos=true, frame=single, tabsize=true]{javascript}
+var net = require('net');
+var server = net.createServer(function(c) { //'connection' listener
+  console.log('server connected');
+  c.on('end', function() {
+    console.log('server disconnected');
+  });
+  c.write('hello\r\n');
+  c.pipe(c);
+});
+
+server.listen(8124, function() { //'listening' listener
+  console.log('server bound');
+});
+            \end{minted}
+        \\    
+      \subsubsection{net.connect(options, [connectionListener])}
+      \subsubsection{net.createConnection(options, [connectionListener])} 
+      Xây dựng một đối tượng socket mới và mở socket nhất định. Khi socket được thành lập, sự kiện 'connect' sẽ được sinh ra.
+      
+      Với TCP sockets, đối số options được đối tượng đăc tả:
+        \begin{itemize}
+            \item \textbf{port}: Port của client để kết nối (Required).
+            \item \textbf{host}: Host của client để kết nối tới, mặc định là 'localhost'.
+            \item \textbf{localAddress}: Giao diện địa phương để ràng buộc các kết nối.
+        \end{itemize}
+
+Đây là một ví dụ:
+    \begin{minted}[linenos=true, frame=single, tabsize=4]{javascript}
+var net = require('net');
+var client = net.connect({port: 8124},
+    function() { //'connect' listener
+  console.log('client connected');
+  client.write('world!\r\n');
+});
+
+client.on('data', function(data) {
+  console.log(data.toString());
+  client.end();
+});
+
+client.on('end', function() {
+  console.log('client disconnected');
+});   
+    \end{minted}
+    
+    \\
+    \subsubsection{net.connect(options, [host], [connectionListener])}
+    \subsubsection{net.createConnection(options, [host], [connectionListener])}
+        Tạo ra một TCP kết nối từ \texttt{port} trong \texttt{host}. Nếu \texttt{host} bị bỏ qua, \texttt{'localhost'} sẽ được chọn giả định. Tham số connectListener sẽ được thêm vào như việc bắt sự kiện cho sự kiện \texttt{"connect"}
+     
+     \\
+     \subsubsection{net.connect(path, [connectListener])}
+     \subsubsection{net.createConnection(path, [connectListener])}
+        Tạo ra unix socket kết nối theo \texttt{path}. Tham số connectListener sẽ được thêm vào như việc bắt sự kiện cho sự kiện \texttt{"connect"}.
 %=========================================
 \subsection{URL \& QueryString}
 	Đây là 2 module tiện ích hỗ trợ cho việc xử lý URL và các truy vấn. \\
@@ -241,10 +302,10 @@ querystring.stringify({ foo: 'bar', baz: ['qux', 'quux'], corge: '' })
 	
 \subsection{DNS}
 	Chức năng module này là giúp phân giải tên miền từ tên miền sang địa chỉ IP và ngược lại. Module này hỗ trợ cả phân giải dựa trên IPV4 và IPV6.
-	%\begin{figure}[h]
-	%	\centering
-	%	\includegraphics[scale=0.7]{3_3_8}
-	%\end{figure}
+	\begin{figure}[-h]
+		\centering
+		\includegraphics[scale=0.7]{3_3_8}
+	\end{figure}
 	
 
 %========================= Một số module công cụ =====================
@@ -284,47 +345,43 @@ console.trace();
 %================================ Event Emitter ===================================
 	\subsection{Event Emitter}
 	Trong Node có nhiều đối tượng có thể sinh ra nhiều sự kiện. Chẳng hạn như, một TCP server có thể sinh ra  một sự kiện "connect" trong mỗi lần mấy client kết nối tới. 
-		\subsubsection{.addListener}
-Bạn có thể bắt được các sự kiện bởi lời gọi của các đối tượng tới phương thức "addListener". Thử lấy một ví dụ, một file ReadStream có thể sinh ra một sự kiện "data" mỗi lần, đây là dữ liệu có thể đọc.
-			\begin{minted}[linenos=true]{javascript}
-var fs = require('fs');
-var readStream = fs.createReadStream('/etc/passwd');
-readStream.on('data', function(data) {
-	console.log(data);
-});
-
-readStream.on('end', function() {
-	console.log('file ended');
+		\subsubsection{emitter.addListener(event, listener)}
+		\subsubsection{emitter.on(event, listener)}
+Thêm một listeners vào cuối mảng listener cho sự kiện được đặc tả.
+			\begin{minted}[linenos=true, frame=single, tabsize=4]{javascript}
+server.on('connection', function (stream) {
+  console.log('someone connected!');
 });
 			\end{minted}
 			
 			
-		\subsubsection{.once}
+		\subsubsection{emitter.once(event, listener)}
 Nếu muốn bắt sự kiện về  liên kết tới server, bạn sử dụng: 
-			\begin{minted}[linenos=true]{minted}
-server.once('connection', function(stream) {
-	console.log('Ah, we have our first user!');
+			\begin{minted}[linenos=true. frame=single, tabsize=4]{javascript}
+server.once('connection', function (stream) {
+  console.log('Ah, we have our first user!');
 });
 			\end{minted}
 		
-\\	
-			\begin{minted}[linenos=true]{minted}
-function connListener(stream) {
-	console.log();
-	server.removeListener('connection', connListener);
-}
-
-server.on('connection', connListener);
-			\end{minted}
-		
-		\subsubsection{.removeAllListeners}
+		\subsubsection{emitter.removeListeners(event, listener)}
+		Gỡ bỏ một listener từ mảng listener mà đặc tả cho sự kiện.
+		    \begin{minted}{javascript}
+var callback = function(stream) {
+  console.log('someone connected!');
+};
+server.on('connection', callback);
+// ...
+server.removeListener('connection', callback);		    
+		    \end{minted}
+			
+	    \subsubsection{emitter.removeAllListener([event])}
+		Nếu bạn cần, bạn có thể gỡ bỏ việc bắt sự kiện từ Event Emitter bởi một lời gọi đơn giản\\
 			\begin{minted}[linenos=true]{javascript}
 server.removeAllListeners('connection');
 			\end{minted}
-		
 
 \subsubsection{Tạo một Event Emitter}
-			\begin{minted}{javascript}
+			\begin{minted}[linenos=true, frame=single, tabsize=4]{javascript}
 var EventEmitter = require('events').EventEmitter,
 	util 		 = require('util');
 
@@ -338,13 +395,13 @@ util.inherits(MyClass, EventEmitter);
 			\end{minted}
 			
 	Trong trường hợp của này, MyClass có thể sinh ra các sự kiện:\\
-	\begin{minted}[linenos=true]{javascript}
+	\begin{minted}[linenos=true, frame=single, tabsize=4]{javascript}
 MyClass.prototype.someMethod = function() {
 	this.emit('custom event', 'some arguments');
 }
 	\end{minted}
 	
-	\begin{minted}[linenos=true]{javascript}
+	\begin{minted}[linenos=true, frame=single, tabsize=4]{javascript}
 var myInstance = new myClass(1, 2);
 myInstance.on('custom event', function() {
 	console.log('got a custom event!');
@@ -353,30 +410,71 @@ myInstance.on('custom event', function() {
 %================================= Buffer ==================================
 	\subsection{Buffer}
 		Buffer là đối tượng cơ bản quan trọng nhất trong NodeJS. Khi truyền dữ liêu qua mạng, dữ liệu được xử lý dưới dạng nhị phân. Tuy nhiên, trong ngôn ngữ Javascript mặc định không có kiểu dữ liệu này. NodeJS đã thêm kiểu dữ liệu này. Khi dữ liệu gửi đến, mặc định là dữ liệu nhị phân. Để có thể chuyển sang dữ liệu văn bản, cần thiết lập kiểu mã hóa của văn bản. Ví dụ nếu văn bản mã hóa utf8, ta cần phải xác định kiểu mã hóa:\\
-		\begin{minted}{javascript}
+		\begin{minted}[linenos=true]{javascript}
 	buf.setEncoding('utf8');
 		\end{minted}
 		
 		Để khởi tạo một Buffer từ xâu, ta làm như sau:\\
-		\begin{minted}{javascript}
+		\begin{minted}[linenos=true]{javascript}
 	buf = new Buffer(str: string, [encoding]);
 		\end{minted}
 		
 		Ví dụ ta muốn tạo Buffer biểu diễn xâu "hello world" :
-		\begin{minted}{javascript}
-	var buf = new Buffer(hello world");
+		\begin{minted}[linenos=true]{javascript}
+	var buf = new Buffer("hello world");
 		\end{minted}
 		
 		Trên kiểu Buffer ta có một số phương thức sau:
 		\begin{itemize}
-			\item toString([encoding],[start], [end]): Trả về xâu biểu diễn Buffer tương ứng.
-			\item toJSON(): trả về đối tượng JSON.
-			\item byteLength(string: string, [encoding]): trả về độ dài xâu
-			\item write(string: string, [offset: Number], [length: Number], [encoding: string]): ghi dữ liệu vào xâu.
-			\item concat(list: array, [totalLength: Number]): Nối các buffer vào buffer cũ.
-			\item slice([start:Number],[end: Number]): Trả về một Buffer mới. Buffer này  tham chiếu đến cùng vùng nhớ với Buffer cũ nhưng bị giới han bởi chỉ số start và end.
-			\item fill(value: Number,[offset: Number],[end: Number]): điền đầy Buffer với dữ liệu value.
+			\item \textbf{write(string: string, [offset: Number], [length: Number], [encoding: string])}: ghi dữ liệu vào xâu. \\
+				\begin{minted}[linenos=true, tabsize=4, frame=single]{javascript}
+buf = new Buffer(256);
+len = buf.write('\u00bd + \u00bc = \u00be', 0);
+console.log(len + " bytes: " + buf.toString('utf8', 0, len));				
+				\end{minted}
+
+			\item \textbf{toString([encoding],[start], [end])}: Trả về xâu biểu diễn Buffer tương ứng.
+			\item \textbf{toJSON()}: trả về đối tượng JSON. \\
+				\begin{minted}[linenos=true, frame=single, tabsize=4]{javascript}
+var buf = new Buffer('test');
+var json = JSON.stringify(buf);
+
+console.log(json);
+// '[116,101,115,116]'
+
+var copy = new Buffer(JSON.parse(json));
+
+console.log(copy);
+// <Buffer 74 65 73 74>
+
+				\end{minted}
+			\item \textbf{byteLength(string: string, [encoding])}: trả về độ dài xâu \\
+				\begin{minted}[linenos=true, tabsize=4, frame=single]{javascript}
+// example byteLength method
+str = '\u00bd + \u00bc = \u00be';
+
+console.log(str + ": " + str.length + "characters, " +
+	Buffer.byteLength(str, 'utf8') + " bytes");
+				\end{minted}
+
+			\item \textbf{concat(list: array, [totalLength: Number])}: Nối các buffer vào buffer cũ.
+			\item \textbf{slice([start:Number],[end: Number])}: Trả về một Buffer mới. Buffer này  tham chiếu đến cùng vùng nhớ với Buffer cũ nhưng bị giới han bởi chỉ số start và end. \\
+				\begin{minted}[linenos=true, frame=single, tabsize=4]{javascript}
+var buf1 = new Buffer(26);
+
+for (var i = 0 ; i < 26 ; i++) {
+  buf1[i] = i + 97; // 97 is ASCII a
+}
+
+var buf2 = buf1.slice(0, 3);
+console.log(buf2.toString('ascii', 0, buf2.length));
+buf1[0] = 33;
+console.log(buf2.toString('ascii', 0, buf2.length));
+				\end{minted}
+			\item \textbf{fill(value: Number,[offset: Number],[end: Number])}: điền đầy Buffer với dữ liệu value.\\
+				\begin{minted}[linenos=true, frame=single, tabsize=4]{javascript}
+var b = new Buffer(50);
+b.fill("h");
+				\end{minted}
 		\end{itemize}
 		
-		Đây là một ví dụ cơ bản về Buffer:
-

@@ -1,0 +1,46 @@
+\contentsline {chapter}{\numberline {1}C\IeC {\^o}ng nh\IeC {\d \ecircumflex } NodeJS}{5}{chapter.1}
+\contentsline {section}{\numberline {1.1}M\IeC {\^o} h\IeC {\`\i }nh WebServer truy\IeC {\`\ecircumflex }n th\IeC {\'\ocircumflex }ng}{5}{section.1.1}
+\contentsline {section}{\numberline {1.2}NodeJS, m\IeC {\^o} h\IeC {\`\i }nh server m\IeC {\'\ohorn }i}{5}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}M\IeC {\^o} h\IeC {\`\i }nh NodeJS}{5}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}M\IeC {\d \ocircumflex }t k\IeC {\'\ecircumflex }t qu\IeC {\h a} benchmark}{7}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}L\IeC {\d \acircumflex }p tr\IeC {\`\i }nh h\IeC {\uhorn }\IeC {\'\ohorn }ng s\IeC {\d \uhorn } ki\IeC {\d \ecircumflex }n tr\IeC {\^e}n server}{7}{subsection.1.2.3}
+\contentsline {chapter}{\numberline {2}C\IeC {\`a}i \IeC {\dj }\IeC {\d \abreve }t v\IeC {\`a} qu\IeC {\h a}n l\IeC {\'y} module trong NodeJS}{9}{chapter.2}
+\contentsline {section}{\numberline {2.1}C\IeC {\`a}i \IeC {\dj }\IeC {\d \abreve }t NodeJS}{9}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}C\IeC {\`a}i \IeC {\dj }\IeC {\d \abreve }t NodeJS}{9}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}S\IeC {\h \uhorn } d\IeC {\d u}ng NodeJs}{10}{subsection.2.1.2}
+\contentsline {section}{\numberline {2.2}Qu\IeC {\h a}n l\IeC {\'y} module trong NodeJS}{10}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Qu\IeC {\h a}n l\IeC {\'y} module trong NodejS}{10}{subsection.2.2.1}
+\contentsline {section}{\numberline {2.3}X\IeC {\^a}y d\IeC {\d \uhorn }ng v\IeC {\`a} s\IeC {\h \uhorn } d\IeC {\d u}ng c\IeC {\'a}c module}{11}{section.2.3}
+\contentsline {chapter}{\numberline {3}L\IeC {\d \acircumflex }p tr\IeC {\`\i }nh c\IeC {\ohorn } b\IeC {\h a}n NodeJS}{13}{chapter.3}
+\contentsline {section}{\numberline {3.1}M\IeC {\d \ocircumflex }t s\IeC {\'\ocircumflex } module l\IeC {\`a}m vi\IeC {\d \ecircumflex }c v\IeC {\`a}o ra}{13}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Module fs}{13}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Module path}{14}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}M\IeC {\d \ocircumflex }t s\IeC {\'\ocircumflex } module v\IeC {\`\ecircumflex } m\IeC {\d a}ng}{14}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}HTTP \& HTTPS}{14}{subsection.3.2.1}
+\contentsline {subsubsection}{http.Server}{15}{section*.3}
+\contentsline {subsection}{\numberline {3.2.2}L\IeC {\'\ohorn }p http.ServerRequest}{15}{subsection.3.2.2}
+\contentsline {subsubsection}{L\IeC {\'\ohorn }p http.serverResponse}{16}{section*.4}
+\contentsline {subsubsection}{http Client}{17}{section*.5}
+\contentsline {subsection}{\numberline {3.2.3}Net}{18}{subsection.3.2.3}
+\contentsline {subsubsection}{net.connect(options, [connectionListener])}{18}{section*.6}
+\contentsline {subsubsection}{net.createConnection(options, [connectionListener])}{18}{section*.7}
+\contentsline {subsubsection}{net.connect(options, [host], [connectionListener])}{19}{section*.8}
+\contentsline {subsubsection}{net.createConnection(options, [host], [connectionListener])}{19}{section*.9}
+\contentsline {subsubsection}{net.connect(path, [connectListener])}{19}{section*.10}
+\contentsline {subsubsection}{net.createConnection(path, [connectListener])}{19}{section*.11}
+\contentsline {subsection}{\numberline {3.2.4}URL \& QueryString}{19}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}DNS}{21}{subsection.3.2.5}
+\contentsline {section}{\numberline {3.3}M\IeC {\d \ocircumflex }t s\IeC {\'\ocircumflex } module c\IeC {\^o}ng c\IeC {\d u}}{21}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Console}{21}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Util}{22}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Event Emitter}{22}{subsection.3.3.3}
+\contentsline {subsubsection}{emitter.addListener(event, listener)}{22}{section*.12}
+\contentsline {subsubsection}{emitter.on(event, listener)}{22}{section*.13}
+\contentsline {subsubsection}{emitter.once(event, listener)}{22}{section*.14}
+\contentsline {subsubsection}{emitter.removeListeners(event, listener)}{22}{section*.15}
+\contentsline {subsubsection}{emitter.removeAllListener([event])}{23}{section*.16}
+\contentsline {subsubsection}{T\IeC {\d a}o m\IeC {\d \ocircumflex }t Event Emitter}{23}{section*.17}
+\contentsline {subsection}{\numberline {3.3.4}Buffer}{23}{subsection.3.3.4}
+\contentsline {chapter}{\numberline {4}V\IeC {\'\i } d\IeC {\d u} minh h\IeC {\d o}a v\IeC {\'\ohorn }i NodeJS}{26}{chapter.4}
+\contentsline {section}{\numberline {4.1}Module Server}{27}{section.4.1}
+\contentsline {section}{\numberline {4.2}Module Client}{28}{section.4.2}

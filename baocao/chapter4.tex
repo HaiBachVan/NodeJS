@@ -1,4 +1,6 @@
 ﻿\chapter{Ví dụ minh họa với NodeJS}
+\label{Ví dụ minh họa với NodeJS}
+
 Trong phần này, ta hãy cùng tìm hiểu một ứng dụng chat đơn giản. Mã nguồn của chương trình có thể tìm thấy tại địa chỉ:\\
 	\url{http://github.com/}\\
 Cấu trúc chương trình được thể hiện qua hình dưới đây:\\
@@ -122,7 +124,7 @@ this.Connection.prototype.handlers = {
 
 \section{Module Client}
 Để thực hiện kết nối với server ta sẽ sử dụng WebSocket để tạo một socket yêu cầu tới  server:
-	\begin{minted}[linenos=true]{javascript}
+	\begin{minted}[linenos=, tabsize=4. frame=single]{javascript}
 NodeJSChat.ws = new WebSocket('ws://localhost:7000')
 NodeJSChat.ws.onmessage = NodeJSChat.onmessage;
 NodeJSChat.ws.onclose = NodeJSChat.onclose;
@@ -215,7 +217,8 @@ said: function(data) {
     var nick = data.nick;
     var stat = data['status'];
 
-    var message = '<div class="status">' + nick + ' just logged ' + stat + '</div>';
+    var message = '<div class="status">' + nick 
+    		+ ' just logged ' + stat + '</div>';
     $('#messages').append(message);
   }
 };

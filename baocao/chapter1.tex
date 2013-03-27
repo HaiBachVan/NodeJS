@@ -1,4 +1,6 @@
 ﻿\chapter{Công nhệ NodeJS}
+\label{Công nhệ NodeJS}
+
 \section{Mô hình WebServer truyền thống}
     Trước hết ta tìm hiểu hoạt động của server.  Server truyền thống hoạt động theo cơ chế \texttt{synchronize IO}. Khi client gửi đến server một yêu cầu, server sẽ dựa trên url yêu cầu để tìm tài nguyên tương ứng. Server sẽ đợi vào ra dữ liệu.Tùy vào tài nguyên đó, server có thể gọi một chương trình khác để tiền xử lý (ví dụ php) và trả lại kết quả cho client. Để đáp ứng được yêu cầu cho nhiều client, server sẽ sử dụng thread để quản lý mỗi yêu cầu của client. Để tăng cường hiệu quả sử dụng thread, các server thường sử dụng cơ chế spool thread. Mô hình này có thể mô hình bởi hình vẽ dưới đây. \\
 	\begin{figure}

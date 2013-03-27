@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.3.21)  26 MAR 2013 00:24
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.3.21)  27 MAR 2013 10:17
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -190,8 +190,7 @@ LaTeX Font Info:    Try loading font information for T5+cmr on input line 100.
 
 (/usr/share/texmf-texlive/tex/latex/vntex/t5cmr.fd
 File: t5cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-))
-(/usr/share/texmf-texlive/tex/latex/base/inputenc.sty
+)) (./inputenc.sty
 Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks15
 \inpenc@posthook=\toks16
@@ -746,8 +745,63 @@ Package graphics Info: Driver file: pdftex.def on input line 91.
 \Gin@req@height=\dimen126
 \Gin@req@width=\dimen127
 ) (./baocao.aux (./bookcover.aux)
-(./preface.aux) (./chapter1.aux) (./chapter2.aux) (./chapter3.aux)
-(./chapter4.aux))
+(./preface.aux) (./chapter1.aux) (./chapter2.aux
+! Missing \endcsname inserted.
+<to be read again> 
+                   \T5\dj 
+l.5 ...Ω module trong NodeJS\relax }{chapter.2}{}}
+                                                  
+? 
+
+LaTeX Warning: Label `C\IeC {\`a}i \IeC {\dj }\IeC {\d \abreve }t v\IeC {\`a} q
+u\IeC {\h a}n l\IeC {\'y} module trong NodeJS' multiply defined.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \T5\dj 
+l.5 ...Ω module trong NodeJS\relax }{chapter.2}{}}
+                                                  
+? 
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 ...Ω module trong NodeJS\relax }{chapter.2}{}}
+                                                  
+? 
+! Extra \endcsname.
+\@namedef ...xpandafter \def \csname #1\endcsname 
+                                                  
+l.5 ...Ω module trong NodeJS\relax }{chapter.2}{}}
+                                                  
+? 
+) (./chapter3.aux
+! Missing \endcsname inserted.
+<to be read again> 
+                   \T5\ohorn 
+l.5 ...√¨nh c∆° b·∫£n NodeJS\relax }{chapter.3}{}}
+                                                  
+? 
+
+LaTeX Warning: Label `ch: L\IeC {\d \acircumflex }p tr\IeC {\`\i }nh c\IeC {\oh
+orn } b\IeC {\h a}n NodeJS' multiply defined.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \T5\ohorn 
+l.5 ...√¨nh c∆° b·∫£n NodeJS\relax }{chapter.3}{}}
+                                                  
+? 
+! Extra \endcsname.
+\@namedef ...xpandafter \def \csname #1\endcsname 
+                                                  
+l.5 ...√¨nh c∆° b·∫£n NodeJS\relax }{chapter.3}{}}
+                                                  
+? 
+) (./chapter4.aux))
 \openout1 = `baocao.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
@@ -842,10 +896,13 @@ driver: pdftex
 -----------------------
 runsystem(pygmentize -S default -f latex > baocao.pyg)...executed.
 
-(./baocao.pyg)
+(./baocao.pyg) [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 \openout2 = `bookcover.aux'.
 
- (./bookcover.tex
+
+(./bookcover.tex
 
 ! Package inputenc Error: Unicode char \u8:Ôªø not set up for use with LaTeX.
 
@@ -856,28 +913,27 @@ Type  H <return>  for immediate help.
 l.1 Ôªø
        \thispagestyle{empty}
 ? 
-<logo.jpg, id=127, 101.37875pt x 150.5625pt>
+<logo.jpg, id=133, 101.37875pt x 150.5625pt>
 File: logo.jpg Graphic file (type jpg)
  <use logo.jpg>
 Underfull \hbox (badness 10000) in paragraph at lines 25--25
 
  []
 
-) [1
+) [2
 
+ <./logo.jpg>] (./baocao.toc
+LaTeX Font Info:    Try loading font information for U+lasy on input line 2.
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logo.jpg>]
-(./baocao.toc
-LaTeX Font Info:    Try loading font information for U+lasy on input line 3.
- (/usr/share/texmf-texlive/tex/latex/base/ulasy.fd
+(/usr/share/texmf-texlive/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 3.
+LaTeX Font Info:    Try loading font information for U+msa on input line 2.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 3.
+LaTeX Font Info:    Try loading font information for U+msb on input line 2.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
@@ -885,7 +941,7 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 \tf@toc=\write7
 \openout7 = `baocao.toc'.
 
- [2
+ [3
 
 
 ]
@@ -900,10 +956,9 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.1 Ôªø
-       \chapter{L·ªùi n√≥i ƒë·∫ßu}
+       \chapter*{L·ªùi n√≥i ƒë·∫ßu}
 ? 
-Ch\uhorn \ohorn ng 1.
-) [3
+) [4
 
 
 ]
@@ -920,29 +975,29 @@ Type  H <return>  for immediate help.
 l.1 Ôªø
        \chapter{C√¥ng nh·ªá NodeJS}
 ? 
-Ch\uhorn \ohorn ng 2.
-LaTeX Font Info:    Try loading font information for T5+cmtt on input line 3.
+Ch\uhorn \ohorn ng 1.
+LaTeX Font Info:    Try loading font information for T5+cmtt on input line 5.
 (/usr/share/texmf-texlive/tex/latex/vntex/t5cmtt.fd
 File: t5cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-<io.png, id=176, 456.70625pt x 300.12125pt>
+<io.png, id=181, 456.70625pt x 300.12125pt>
 File: io.png Graphic file (type png)
  <use io.png>
-Underfull \hbox (badness 10000) in paragraph at lines 3--13
+Underfull \hbox (badness 10000) in paragraph at lines 5--15
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 14.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 16.
 (/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 14.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 16.
 File: io.png Graphic file (type png)
  <use io.png>
 \openout4 = `baocao.pyg'.
 
- [4
+ [5
 
 
 
@@ -962,7 +1017,7 @@ runsystem(rm baocao.pyg)...executed.
 \openout4 = `baocao.pyg'.
 
 
-Overfull \hbox (68.38405pt too wide) in paragraph at lines 41--44
+Overfull \hbox (68.38405pt too wide) in paragraph at lines 43--46
 \T5/cmtt/m/n/12 IO\T5/cmr/m/n/12 , l†m th∏ n†o ^^_∫ khi truy vßn th¸c hiªn xong
 , server bi∏t v† th¸c hiªn h†m \T5/cmtt/m/n/12 ioSomethingWithPost(post)\T5/cmr
 /m/n/12 ?
@@ -976,12 +1031,12 @@ runsystem(rm baocao.out.pyg)...executed.
 
 runsystem(rm baocao.pyg)...executed.
 
- [5pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1
+ [6pdfTeX warning (ext4): destination with the same identifier (name{figure.1.1
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.53 
+l.55 
       <./io.png (PNG copy)>]
 \openout4 = `baocao.pyg'.
 
@@ -1001,21 +1056,21 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.65 	\include{nodejs_vs_apache}
+l.67 	\include{nodejs_vs_apache}
                                 
 ? 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--66
+Underfull \hbox (badness 10000) in paragraph at lines 66--68
 
  []
 
-) [6pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+) [7pdfTeX warning (ext4): destination with the same identifier (name{figure.1.
 2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.31     \include{chapter1}
-                           ] [7]
+                           ] [8]
 \openout2 = `chapter2.aux'.
 
  (./chapter2.tex
@@ -1029,42 +1084,42 @@ Type  H <return>  for immediate help.
 l.1 Ôªø
        \chapter{C√†i ƒë·∫∑t v√† qu·∫£n l√Ω module trong NodeJS}
 ? 
-Ch\uhorn \ohorn ng 3.
-<2_1.PNG, id=201, 384.6872pt x 295.1025pt>
+Ch\uhorn \ohorn ng 2.
+<2_1.PNG, id=206, 384.6872pt x 295.1025pt>
 File: 2_1.PNG Graphic file (type png)
  <use 2_1.PNG>
-<2_2.PNG, id=203, 382.42876pt x 296.60812pt>
+<2_2.PNG, id=208, 382.42876pt x 296.60812pt>
 File: 2_2.PNG Graphic file (type png)
  <use 2_2.PNG>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 18--20
+Underfull \hbox (badness 10000) in paragraph at lines 20--22
 
  []
 
-[8
+[9
 
 
 
  <./2_1.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 37--41
+Underfull \hbox (badness 10000) in paragraph at lines 39--43
 
  []
 
 
-Overfull \hbox (4.53989pt too wide) in paragraph at lines 42--44
+Overfull \hbox (4.53989pt too wide) in paragraph at lines 44--46
 []\T5/cmr/m/n/12 CÙng c‚ th∫ ch§y mÎt JavaScript t¯ mÎt file. N∏u t§o chÛng ta 
 t§o mÎt file \T5/cmtt/m/n/12 hello_world.js
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--44
+Underfull \hbox (badness 10000) in paragraph at lines 44--46
 
  []
 
-[9 <./2_2.PNG>]
+[10 <./2_2.PNG>]
 \openout4 = `baocao.pyg'.
 
 runsystem(pygmentize -l javascript -f latex -F tokenmerge            -P linenos
@@ -1085,7 +1140,7 @@ runsystem(rm baocao.out.pyg)...executed.
 
 runsystem(rm baocao.pyg)...executed.
 
- [10]
+ [11]
 \openout4 = `baocao.pyg'.
 
 runsystem(pygmentize -l javascript -f latex -F tokenmerge            -P linenos
@@ -1096,41 +1151,38 @@ runsystem(rm baocao.out.pyg)...executed.
 
 runsystem(rm baocao.pyg)...executed.
 
-)
-[11]
+) [12]
 \openout2 = `chapter3.aux'.
 
  (./chapter3.tex
-
-! Package inputenc Error: Unicode char \u8:Ôªø not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 Ôªø
-       \Chapter{L·∫≠p tr√¨nh c∆° b·∫£n NodeJS}
-? 
-! Undefined control sequence.
-l.1 Ôªø\Chapter
-               {L·∫≠p tr√¨nh c∆° b·∫£n NodeJS}
-? 
-[12
+Ch\uhorn \ohorn ng 3.
+[13
 
 
-] <3_3_1.png, id=239, 216.81pt x 85.06781pt>
+
+] <3_3_0.png, id=245, 202.50656pt x 130.38402pt>
+File: 3_3_0.png Graphic file (type png)
+ <use 3_3_0.png>
+<3_3_1.png, id=246, 216.81pt x 85.06781pt>
 File: 3_3_1.png Graphic file (type png)
  <use 3_3_1.png>
-<3_3_2.png, id=240, 290.58563pt x 92.59593pt>
+<3_3_2.png, id=247, 290.58563pt x 92.59593pt>
 File: 3_3_2.png Graphic file (type png)
- <use 3_3_2.png> [13 <./3_3_1.png (PNG copy)> <./3_3_2.png (PNG copy)>]
-<3_3_3.png, id=247, 265.74281pt x 142.28156pt>
+ <use 3_3_2.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[14 <./3_3_0.png (PNG copy)> <./3_3_1.png (PNG copy)>]
+<3_3_3.png, id=252, 265.74281pt x 142.28156pt>
 File: 3_3_3.png Graphic file (type png)
  <use 3_3_3.png>
-<3_3_4.png, id=248, 130.23656pt x 133.24782pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[15 <./3_3_2.png (PNG copy)>] <3_3_4.png, id=258, 130.23656pt x 133.24782pt>
 File: 3_3_4.png Graphic file (type png)
- <use 3_3_4.png> [14 <./3_3_3.png (PNG copy)>] <3_3_5.png, id=253, 265.74281pt 
-x 142.28156pt>
+
+<use 3_3_4.png> <3_3_5.png, id=259, 265.74281pt x 142.28156pt>
 File: 3_3_5.png Graphic file (type png)
  <use 3_3_5.png>
 \openout4 = `baocao.pyg'.
@@ -1139,7 +1191,8 @@ runsystem(pygmentize -l javascript -f latex -F tokenmerge            -P linenos
  -P "verboptions= ,tabsize=4" -o baocao.out.pyg baocao.pyg)...executed.
 
 
-(./baocao.out.pyg)
+(./baocao.out.pyg [16 <./3_3_3.png (PNG copy)> <./3_3_4.png (PNG copy)> <./3_3_
+5.png (PNG copy)>])
 runsystem(rm baocao.out.pyg)...executed.
 
 runsystem(rm baocao.pyg)...executed.
@@ -1149,97 +1202,64 @@ runsystem(rm baocao.pyg)...executed.
 runsystem(pygmentize -l javascript -f latex -F tokenmerge            -P linenos
  -P "verboptions= ,tabsize=4,frame=single" -o baocao.out.pyg baocao.pyg)...exec
 uted.
-
- (./baocao.out.pyg [15 <./3_3_4.png (PNG copy)> <./3_3_5.png (PNG copy)>])
-runsystem(rm baocao.out.pyg)...executed.
-
-runsystem(rm baocao.pyg)...executed.
-
- <3_3_6.png, id=260, 652.4375pt x 390.45876pt>
-File: 3_3_6.png Graphic file (type png)
- <use 3_3_6.png>
-[16 <./3_3_6.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 209--210
-
- []
-
-<3_3_7.png, id=267, 652.4375pt x 390.45876pt>
-File: 3_3_7.png Graphic file (type png)
- <use 3_3_7.png>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 216--217
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 224--225
-
- []
-
-\openout4 = `baocao.pyg'.
-
-runsystem(pygmentize -l javascript -f latex -F tokenmerge            -P linenos
- -P "verboptions= ,tabsize=4,frame=single" -o baocao.out.pyg baocao.pyg)...exec
-uted.
-
-(./baocao.out.pyg [17])
-runsystem(rm baocao.out.pyg)...executed.
-
-runsystem(rm baocao.pyg)...executed.
-
-\openout4 = `baocao.pyg'.
-
-runsystem(pygmentize -l javascript -f latex -F tokenmerge             -P "verbo
-ptions= " -o baocao.out.pyg baocao.pyg)...executed.
 
  (./baocao.out.pyg)
 runsystem(rm baocao.out.pyg)...executed.
 
 runsystem(rm baocao.pyg)...executed.
 
+
+<3_3_6.png, id=265, 652.4375pt x 390.45876pt>
+File: 3_3_6.png Graphic file (type png)
+ <use 3_3_6.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[17]
+! Undefined control sequence.
+l.195         \subsubsetion
+                           {net.createServer([options], [connectionListener])}
+? 
 \openout4 = `baocao.pyg'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 257--259
+Underfull \hbox (badness 10000) in paragraph at lines 193--198
 
  []
 
-runsystem(pygmentize -l javascript -f latex -F tokenmerge             -P "verbo
-ptions= " -o baocao.out.pyg baocao.pyg)...executed.
+runsystem(pygmentize -l javascript -f latex -F tokenmerge            -P linenos
+ -P "verboptions= ,frame=single,tabsize=true" -o baocao.out.pyg baocao.pyg)...e
+xecuted.
 
-(./baocao.out.pyg)
+(./baocao.out.pyg
+! Missing number, treated as zero.
+<to be read again> 
+                   t
+l.1 ...1,stepnumber=1, ,frame=single,tabsize=true]
+                                                  
+? 
+)
 runsystem(rm baocao.out.pyg)...executed.
 
 runsystem(rm baocao.pyg)...executed.
 
-\openout4 = `baocao.pyg'.
 
-runsystem(pygmentize -l javascript -f latex -F tokenmerge             -P "verbo
-ptions= " -o baocao.out.pyg baocao.pyg)...executed.
 
- (./baocao.out.pyg [18 <./3_3_7.png (PNG copy)>])
-runsystem(rm baocao.out.pyg)...executed.
+! LaTeX Error: There's no line here to end.
 
-runsystem(rm baocao.pyg)...executed.
-
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.213       \subsubsection
+                          {net.connect(options, [connectionListener])}
+? 
+[18 <./3_3_6.png (PNG copy)>]
 \openout4 = `baocao.pyg'.
 
 runsystem(pygmentize -l javascript -f latex -F tokenmerge            -P linenos
- -P "verboptions= " -o baocao.out.pyg baocao.pyg)...executed.
-
-
-(./baocao.out.pyg)
-runsystem(rm baocao.out.pyg)...executed.
-
-runsystem(rm baocao.pyg)...executed.
-
-\openout4 = `baocao.pyg'.
-
-runsystem(pygmentize -l minted -f latex -F tokenmerge            -P linenos -P 
-"verboptions= " -o baocao.out.pyg baocao.pyg)...executed.
+ -P "verboptions= ,frame=single,tabsize=4" -o baocao.out.pyg baocao.pyg)...exec
+uted.
 
  (./baocao.out.pyg)
 runsystem(rm baocao.out.pyg)...executed.
@@ -1254,13 +1274,94 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.308 			\begin
-               {minted}[linenos=true]{minted}
+l.244     \subsubsection
+                        {net.connect(options, [host], [connectionListener])}
 ? 
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.249      \subsubsection
+                         {net.connect(path, [connectListener])}
+? 
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
+
+ []
+
+<3_3_7.png, id=288, 652.4375pt x 390.45876pt>
+File: 3_3_7.png Graphic file (type png)
+ <use 3_3_7.png>
+Underfull \hbox (badness 10000) in paragraph at lines 278--279
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
+
+ []
+
 \openout4 = `baocao.pyg'.
 
-runsystem(pygmentize -l minted -f latex -F tokenmerge            -P linenos -P 
-"verboptions= " -o baocao.out.pyg baocao.pyg)...executed.
+runsystem(pygmentize -l javascript -f latex -F tokenmerge            -P linenos
+ -P "verboptions= ,tabsize=4,frame=single" -o baocao.out.pyg baocao.pyg)...exec
+uted.
+
+(./baocao.out.pyg [20 <./3_3_7.png (PNG copy)>])
+runsystem(rm baocao.out.pyg)...executed.
+
+runsystem(rm baocao.pyg)...executed.
+
+
+<3_3_8.png, id=293, 248.42813pt x 154.22568pt>
+File: 3_3_8.png Graphic file (type png)
+ <use 3_3_8.png>
+\openout4 = `baocao.pyg'.
+
+runsystem(pygmentize -l javascript -f latex -F tokenmerge             -P "verbo
+ptions= " -o baocao.out.pyg baocao.pyg)...executed.
+
+
+(./baocao.out.pyg)
+runsystem(rm baocao.out.pyg)...executed.
+
+runsystem(rm baocao.pyg)...executed.
+
+\openout4 = `baocao.pyg'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--321
+
+ []
+
+runsystem(pygmentize -l javascript -f latex -F tokenmerge             -P "verbo
+ptions= " -o baocao.out.pyg baocao.pyg)...executed.
+
+(./baocao.out.pyg)
+runsystem(rm baocao.out.pyg)...executed.
+
+runsystem(rm baocao.pyg)...executed.
+
+\openout4 = `baocao.pyg'.
+
+runsystem(pygmentize -l javascript -f latex -F tokenmerge             -P "verbo
+ptions= " -o baocao.out.pyg baocao.pyg)...executed.
+
+ (./baocao.out.pyg)
+runsystem(rm baocao.out.pyg)...executed.
+
+runsystem(rm baocao.pyg)...executed.
+
+ [21 <./3_3_8.png (PNG copy)>]
+\openout4 = `baocao.pyg'.
+
+runsystem(pygmentize -l javascript -f latex -F tokenmerge            -P linenos
+ -P "verboptions= ,frame=single,tabsize=4" -o baocao.out.pyg baocao.pyg)...exec
+uted.
+
 
 (./baocao.out.pyg)
 runsystem(rm baocao.out.pyg)...executed.
@@ -1270,7 +1371,7 @@ runsystem(rm baocao.pyg)...executed.
 \openout4 = `baocao.pyg'.
 
 runsystem(pygmentize -l javascript -f latex -F tokenmerge            -P linenos
- -P "verboptions= " -o baocao.out.pyg baocao.pyg)...executed.
+ -P "verboptions= ,tabsize=4" -o baocao.out.pyg baocao.pyg)...executed.
 
  (./baocao.out.pyg)
 runsystem(rm baocao.out.pyg)...executed.
@@ -1282,7 +1383,7 @@ runsystem(rm baocao.pyg)...executed.
 runsystem(pygmentize -l javascript -f latex -F tokenmerge             -P "verbo
 ptions= " -o baocao.out.pyg baocao.pyg)...executed.
 
- (./baocao.out.pyg [19])
+ (./baocao.out.pyg)
 runsystem(rm baocao.out.pyg)...executed.
 
 runsystem(rm baocao.pyg)...executed.
@@ -1290,7 +1391,75 @@ runsystem(rm baocao.pyg)...executed.
 \openout4 = `baocao.pyg'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 337--339
+Underfull \hbox (badness 10000) in paragraph at lines 378--380
+
+ []
+
+runsystem(pygmentize -l javascript -f latex -F tokenmerge            -P linenos
+ -P "verboptions= " -o baocao.out.pyg baocao.pyg)...executed.
+
+(./baocao.out.pyg [22])
+runsystem(rm baocao.out.pyg)...executed.
+
+runsystem(rm baocao.pyg)...executed.
+
+\openout4 = `baocao.pyg'.
+
+runsystem(pygmentize -l javascript -f latex -F tokenmerge            -P linenos
+ -P "verboptions= ,frame=single,tabsize=4" -o baocao.out.pyg baocao.pyg)...exec
+uted.
+
+ (./baocao.out.pyg)
+runsystem(rm baocao.out.pyg)...executed.
+
+runsystem(rm baocao.pyg)...executed.
+
+\openout4 = `baocao.pyg'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 397--399
+
+ []
+
+runsystem(pygmentize -l javascript -f latex -F tokenmerge            -P linenos
+ -P "verboptions= ,frame=single,tabsize=4" -o baocao.out.pyg baocao.pyg)...exec
+uted.
+
+(./baocao.out.pyg)
+runsystem(rm baocao.out.pyg)...executed.
+
+runsystem(rm baocao.pyg)...executed.
+
+\openout4 = `baocao.pyg'.
+
+runsystem(pygmentize -l javascript -f latex -F tokenmerge            -P linenos
+ -P "verboptions= ,frame=single,tabsize=4" -o baocao.out.pyg baocao.pyg)...exec
+uted.
+
+ (./baocao.out.pyg)
+runsystem(rm baocao.out.pyg)...executed.
+
+runsystem(rm baocao.pyg)...executed.
+
+\openout4 = `baocao.pyg'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 412--414
+
+ []
+
+runsystem(pygmentize -l javascript -f latex -F tokenmerge            -P linenos
+ -P "verboptions= " -o baocao.out.pyg baocao.pyg)...executed.
+
+(./baocao.out.pyg)
+runsystem(rm baocao.out.pyg)...executed.
+
+runsystem(rm baocao.pyg)...executed.
+
+\openout4 = `baocao.pyg'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 417--419
 
  []
 
@@ -1315,12 +1484,29 @@ runsystem(rm baocao.pyg)...executed.
 \openout4 = `baocao.pyg'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 352--354
+Underfull \hbox (badness 10000) in paragraph at lines 429--431
 
  []
 
-runsystem(pygmentize -l javascript -f latex -F tokenmerge             -P "verbo
-ptions= " -o baocao.out.pyg baocao.pyg)...executed.
+runsystem(pygmentize -l javascript -f latex -F tokenmerge            -P linenos
+ -P "verboptions= ,tabsize=4,frame=single" -o baocao.out.pyg baocao.pyg)...exec
+uted.
+
+(./baocao.out.pyg [23])
+runsystem(rm baocao.out.pyg)...executed.
+
+runsystem(rm baocao.pyg)...executed.
+
+\openout4 = `baocao.pyg'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 437--439
+
+ []
+
+runsystem(pygmentize -l javascript -f latex -F tokenmerge            -P linenos
+ -P "verboptions= ,frame=single,tabsize=4" -o baocao.out.pyg baocao.pyg)...exec
+uted.
 
 (./baocao.out.pyg)
 runsystem(rm baocao.out.pyg)...executed.
@@ -1330,12 +1516,13 @@ runsystem(rm baocao.pyg)...executed.
 \openout4 = `baocao.pyg'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 357--359
+Underfull \hbox (badness 10000) in paragraph at lines 451--453
 
  []
 
-runsystem(pygmentize -l javascript -f latex -F tokenmerge             -P "verbo
-ptions= " -o baocao.out.pyg baocao.pyg)...executed.
+runsystem(pygmentize -l javascript -f latex -F tokenmerge            -P linenos
+ -P "verboptions= ,tabsize=4,frame=single" -o baocao.out.pyg baocao.pyg)...exec
+uted.
 
 (./baocao.out.pyg)
 runsystem(rm baocao.out.pyg)...executed.
@@ -1344,15 +1531,38 @@ runsystem(rm baocao.pyg)...executed.
 
 \openout4 = `baocao.pyg'.
 
-runsystem(pygmentize -l javascript -f latex -F tokenmerge             -P "verbo
-ptions= " -o baocao.out.pyg baocao.pyg)...executed.
+
+Underfull \hbox (badness 10000) in paragraph at lines 461--463
+
+ []
+
+runsystem(pygmentize -l javascript -f latex -F tokenmerge            -P linenos
+ -P "verboptions= ,frame=single,tabsize=4" -o baocao.out.pyg baocao.pyg)...exec
+uted.
+
+(./baocao.out.pyg)
+runsystem(rm baocao.out.pyg)...executed.
+
+runsystem(rm baocao.pyg)...executed.
+
+\openout4 = `baocao.pyg'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 474--476
+
+ []
+
+[24]
+runsystem(pygmentize -l javascript -f latex -F tokenmerge            -P linenos
+ -P "verboptions= ,frame=single,tabsize=4" -o baocao.out.pyg baocao.pyg)...exec
+uted.
 
  (./baocao.out.pyg)
 runsystem(rm baocao.out.pyg)...executed.
 
 runsystem(rm baocao.pyg)...executed.
 
-) [20]
+) [25]
 \openout2 = `chapter4.aux'.
 
  (./chapter4.tex
@@ -1367,17 +1577,17 @@ l.1 Ôªø
        \chapter{V√≠ d·ª• minh h·ªça v·ªõi NodeJS}
 ? 
 Ch\uhorn \ohorn ng 4.
-<4_1.png, id=290, 667.49374pt x 390.45876pt>
+<4_1.png, id=322, 667.49374pt x 390.45876pt>
 File: 4_1.png Graphic file (type png)
  <use 4_1.png>
 \openout4 = `baocao.pyg'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--34
+Underfull \hbox (badness 10000) in paragraph at lines 33--36
 
  []
 
-[21
+[26
 
 
 
@@ -1393,7 +1603,7 @@ runsystem(rm baocao.pyg)...executed.
 \openout4 = `baocao.pyg'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--42
+Underfull \hbox (badness 10000) in paragraph at lines 42--44
 
  []
 
@@ -1409,7 +1619,7 @@ runsystem(rm baocao.pyg)...executed.
 \openout4 = `baocao.pyg'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--58
+Underfull \hbox (badness 10000) in paragraph at lines 58--60
 
  []
 
@@ -1425,11 +1635,11 @@ runsystem(rm baocao.pyg)...executed.
 \openout4 = `baocao.pyg'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--79
+Underfull \hbox (badness 10000) in paragraph at lines 79--81
 
  []
 
-[22]
+[27]
 runsystem(pygmentize -l javascript -f latex -F tokenmerge            -P linenos
  -P "verboptions= ,frame=single,tabsize=4" -o baocao.out.pyg baocao.pyg)...exec
 uted.
@@ -1442,7 +1652,7 @@ runsystem(rm baocao.pyg)...executed.
 \openout4 = `baocao.pyg'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--87
+Underfull \hbox (badness 10000) in paragraph at lines 87--89
 
  []
 
@@ -1468,8 +1678,8 @@ runsystem(rm baocao.pyg)...executed.
 
 \openout4 = `baocao.pyg'.
 
-runsystem(pygmentize -l javascript -f latex -F tokenmerge            -P linenos
- -P "verboptions= " -o baocao.out.pyg baocao.pyg)...executed.
+runsystem(pygmentize -l javascript -f latex -F tokenmerge             -P "verbo
+ptions= ,tabsize=4. frame" -o baocao.out.pyg baocao.pyg)...executed.
 
  (./baocao.out.pyg)
 runsystem(rm baocao.out.pyg)...executed.
@@ -1479,7 +1689,7 @@ runsystem(rm baocao.pyg)...executed.
 \openout4 = `baocao.pyg'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--134
+Underfull \hbox (badness 10000) in paragraph at lines 134--136
 
  []
 
@@ -1487,7 +1697,7 @@ runsystem(pygmentize -l javascript -f latex -F tokenmerge            -P linenos
  -P "verboptions= ,frame=single,tabsize=4" -o baocao.out.pyg baocao.pyg)...exec
 uted.
 
-(./baocao.out.pyg [23])
+(./baocao.out.pyg [28])
 runsystem(rm baocao.out.pyg)...executed.
 
 runsystem(rm baocao.pyg)...executed.
@@ -1520,33 +1730,51 @@ runsystem(pygmentize -l javascript -f latex -F tokenmerge            -P linenos
  -P "verboptions= ,frame=single,tabsize=4" -o baocao.out.pyg baocao.pyg)...exec
 uted.
 
- (./baocao.out.pyg [24])
+ (./baocao.out.pyg [29])
 runsystem(rm baocao.out.pyg)...executed.
 
 runsystem(rm baocao.pyg)...executed.
 
-) [25]
+) [30]
 No file baocao.bbl.
 (./baocao.aux (./bookcover.aux) (./preface.aux) (./chapter1.aux)
-(./chapter2.aux) (./chapter3.aux) (./chapter4.aux)) ) 
+(./chapter2.aux
+! Missing \endcsname inserted.
+<to be read again> 
+                   \T5\dj 
+l.5 ...Ω module trong NodeJS\relax }{chapter.2}{}}
+                                                  
+? 
+) (./chapter3.aux
+! Missing \endcsname inserted.
+<to be read again> 
+                   \T5\ohorn 
+l.5 ...√¨nh c∆° b·∫£n NodeJS\relax }{chapter.3}{}}
+                                                  
+? 
+) (./chapter4.aux))
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 9096 strings out of 495061
- 118762 string characters out of 1182621
- 197416 words of memory out of 3000000
- 11900 multiletter control sequences out of 15000+50000
+ 9138 strings out of 495061
+ 119222 string characters out of 1182621
+ 197674 words of memory out of 3000000
+ 11912 multiletter control sequences out of 15000+50000
  21776 words of font info for 50 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 38i,8n,40p,1117b,523s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/
-fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1
-/vntex/vnr/vnbx12.pfb></usr/share/texmf-texlive/fonts/type1/vntex/vnr/vnitt10.p
-fb></usr/share/texmf-texlive/fonts/type1/vntex/vnr/vnr12.pfb></usr/share/texmf-
-texlive/fonts/type1/vntex/vnr/vnr17.pfb></usr/share/texmf-texlive/fonts/type1/v
-ntex/vnr/vnr6.pfb></usr/share/texmf-texlive/fonts/type1/vntex/vnr/vnti12.pfb></
-usr/share/texmf-texlive/fonts/type1/vntex/vnr/vntt12.pfb>
-Output written on baocao.pdf (25 pages, 483100 bytes).
+ 38i,8n,40p,1117b,521s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sha
+re/texmf-texlive/fonts/type1/vntex/vnr/vnbx12.pfb></usr/share/texmf-texlive/fon
+ts/type1/vntex/vnr/vnitt10.pfb></usr/share/texmf-texlive/fonts/type1/vntex/vnr/
+vnr12.pfb></usr/share/texmf-texlive/fonts/type1/vntex/vnr/vnr17.pfb></usr/share
+/texmf-texlive/fonts/type1/vntex/vnr/vnr6.pfb></usr/share/texmf-texlive/fonts/t
+ype1/vntex/vnr/vnti12.pfb></usr/share/texmf-texlive/fonts/type1/vntex/vnr/vntt1
+2.pfb>
+Output written on baocao.pdf (30 pages, 511500 bytes).
 PDF statistics:
- 357 PDF objects out of 1000 (max. 8388607)
- 77 named destinations out of 1000 (max. 500000)
- 309 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 391 PDF objects out of 1000 (max. 8388607)
+ 91 named destinations out of 1000 (max. 500000)
+ 319 words of extra memory for PDF output out of 10000 (max. 10000000)
 
