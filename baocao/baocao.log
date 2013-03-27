@@ -1,0 +1,1552 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.3.21)  26 MAR 2013 00:24
+entering extended mode
+ \write18 enabled.
+ %&-line parsing enabled.
+**baocao.tex
+(./baocao.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, loaded.
+(/usr/share/texmf-texlive/tex/latex/base/report.cls
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texmf-texlive/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (./xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/etc/texmf/tex/latex/config/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
+\Gread@gobject=\count88
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(/usr/share/texmf-texlive/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2009/10/09 v6.79a Hypertext links for LaTeX
+ (./keyval.sty
+Package: keyval 1995/09/21 v1.09 key=value parser (DPC)
+)
+
+LaTeX Warning: You have requested, on input line 97, version
+               `1997/11/10' of package keyval,
+               but only version
+               `1995/09/21 v1.09 key=value parser (DPC)'
+               is available.
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2009/04/10 v2.0 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in pdf mode detected.
+)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2008/11/04 v1.4 Switches for detecting VTeX and its modes (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/share/texmf-texlive/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2009/01/23 v0.5 Provides ifxetex conditional
+)
+(/usr/share/texmf-texlive/tex/latex/oberdiek/hycolor.sty
+Package: hycolor 2009/10/02 v1.5 Code for color options of hyperref/bookmark (H
+O)
+
+(/usr/share/texmf-texlive/tex/latex/oberdiek/xcolor-patch.sty
+Package: xcolor-patch 2009/10/02 xcolor patch
+))
+\@linkdim=\dimen103
+\Hy@linkcounter=\count89
+\Hy@pagecounter=\count90
+
+(/usr/share/texmf-texlive/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2009/10/09 v6.79a Hyperref: PDFDocEncoding definition (HO)
+)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2007/12/12 v1.2 Prefix for e-TeX command names (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2007/09/09 v1.2 Providing info/warning/message (HO)
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)
+(/usr/share/texmf-texlive/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+(/usr/share/texmf-texlive/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2009/08/13 v3.4 Keyval support for LaTeX options (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2009/07/30 v1.5 Key value parser with default handler suppor
+t (HO)
+))
+Package hyperref Info: Option `unicode' set `true' on input line 2864.
+
+(/usr/share/texmf-texlive/tex/latex/hyperref/puenc.def
+File: puenc.def 2009/10/09 v6.79a Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Hyper figures OFF on input line 2975.
+Package hyperref Info: Link nesting OFF on input line 2980.
+Package hyperref Info: Hyper index ON on input line 2983.
+Package hyperref Info: Plain pages OFF on input line 2990.
+Package hyperref Info: Backreferencing OFF on input line 2995.
+
+Implicit mode ON; LaTeX internals redefined
+Package hyperref Info: Bookmarks ON on input line 3191.
+(/usr/share/texmf-texlive/tex/latex/ltxmisc/url.sty
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 3428.
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/bitset.sty
+Package: bitset 2007/09/28 v1.0 Data type bit set (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/intcalc.sty
+Package: intcalc 2007/09/27 v1.1 Expandable integer calculations (HO)
+)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/bigintcalc.sty
+Package: bigintcalc 2007/11/11 v1.1 Expandable big integer calculations (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2009/09/23 v0.6 LuaTeX support for pdfTeX utility functions
+ (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2009/04/17 v1.2 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2009/08/05 v1.0 Some LaTeX kernel commands for general use (HO
+)
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+)))
+\Fld@menulength=\count91
+\Field@Width=\dimen104
+\Fld@charsize=\dimen105
+\Field@toks=\toks14
+Package hyperref Info: Hyper figures OFF on input line 4377.
+Package hyperref Info: Link nesting OFF on input line 4382.
+Package hyperref Info: Hyper index ON on input line 4385.
+Package hyperref Info: backreferencing OFF on input line 4392.
+Package hyperref Info: Link coloring OFF on input line 4397.
+Package hyperref Info: Link coloring with OCG OFF on input line 4402.
+Package hyperref Info: PDF/A mode OFF on input line 4407.
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2008/07/31 v1.9 At begin shipout hook (HO)
+)
+\Hy@abspage=\count92
+\c@Item=\count93
+\c@Hfootnote=\count94
+)
+*hyperref using default driver hpdftex*
+(/usr/share/texmf-texlive/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2009/10/09 v6.79a Hyperref driver for pdfTeX
+\Fld@listcount=\count95
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 7.
+Package hyperref Info: Option `unicode' set `true' on input line 7.
+
+(/usr/share/texmf-texlive/tex/latex/vntex/vietnam.sty
+Package: vietnam 2009/07/12 v1.3 support for Vietnamese
+ (./ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texmf-texlive/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/share/texmf-texlive/tex/latex/vntex/t5enc.def
+File: t5enc.def 2006/11/21 v1.4 Vietnamese T5 encoding
+)
+LaTeX Font Info:    Try loading font information for T5+cmr on input line 100.
+
+(/usr/share/texmf-texlive/tex/latex/vntex/t5cmr.fd
+File: t5cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+))
+(/usr/share/texmf-texlive/tex/latex/base/inputenc.sty
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
+
+(/usr/share/texmf-texlive/tex/latex/base/utf8.def
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+(/usr/share/texmf-texlive/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+(/usr/share/texmf-texlive/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+(/usr/share/texmf-texlive/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+Now handling font encoding T5 ...
+... processing UTF-8 mapping file for font encoding T5
+
+(/usr/share/texmf-texlive/tex/latex/vntex/t5enc.dfu
+File: t5enc.dfu 2006/08/19 v1.1 UTF8 support for Vietnamese
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0128 (decimal 296)
+   defining Unicode char U+0129 (decimal 297)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0168 (decimal 360)
+   defining Unicode char U+0169 (decimal 361)
+   defining Unicode char U+01A0 (decimal 416)
+   defining Unicode char U+01A1 (decimal 417)
+   defining Unicode char U+01AF (decimal 431)
+   defining Unicode char U+01B0 (decimal 432)
+   defining Unicode char U+1EA0 (decimal 7840)
+   defining Unicode char U+1EA1 (decimal 7841)
+   defining Unicode char U+1EA2 (decimal 7842)
+   defining Unicode char U+1EA3 (decimal 7843)
+   defining Unicode char U+1EA4 (decimal 7844)
+   defining Unicode char U+1EA5 (decimal 7845)
+   defining Unicode char U+1EA6 (decimal 7846)
+   defining Unicode char U+1EA7 (decimal 7847)
+   defining Unicode char U+1EA8 (decimal 7848)
+   defining Unicode char U+1EA9 (decimal 7849)
+   defining Unicode char U+1EAA (decimal 7850)
+   defining Unicode char U+1EAB (decimal 7851)
+   defining Unicode char U+1EAC (decimal 7852)
+   defining Unicode char U+1EAD (decimal 7853)
+   defining Unicode char U+1EAE (decimal 7854)
+   defining Unicode char U+1EAF (decimal 7855)
+   defining Unicode char U+1EB0 (decimal 7856)
+   defining Unicode char U+1EB1 (decimal 7857)
+   defining Unicode char U+1EB2 (decimal 7858)
+   defining Unicode char U+1EB3 (decimal 7859)
+   defining Unicode char U+1EB4 (decimal 7860)
+   defining Unicode char U+1EB5 (decimal 7861)
+   defining Unicode char U+1EB6 (decimal 7862)
+   defining Unicode char U+1EB7 (decimal 7863)
+   defining Unicode char U+1EB8 (decimal 7864)
+   defining Unicode char U+1EB9 (decimal 7865)
+   defining Unicode char U+1EBA (decimal 7866)
+   defining Unicode char U+1EBB (decimal 7867)
+   defining Unicode char U+1EBC (decimal 7868)
+   defining Unicode char U+1EBD (decimal 7869)
+   defining Unicode char U+1EBE (decimal 7870)
+   defining Unicode char U+1EBF (decimal 7871)
+   defining Unicode char U+1EC0 (decimal 7872)
+   defining Unicode char U+1EC1 (decimal 7873)
+   defining Unicode char U+1EC2 (decimal 7874)
+   defining Unicode char U+1EC3 (decimal 7875)
+   defining Unicode char U+1EC4 (decimal 7876)
+   defining Unicode char U+1EC5 (decimal 7877)
+   defining Unicode char U+1EC6 (decimal 7878)
+   defining Unicode char U+1EC7 (decimal 7879)
+   defining Unicode char U+1EC8 (decimal 7880)
+   defining Unicode char U+1EC9 (decimal 7881)
+   defining Unicode char U+1ECA (decimal 7882)
+   defining Unicode char U+1ECB (decimal 7883)
+   defining Unicode char U+1ECC (decimal 7884)
+   defining Unicode char U+1ECD (decimal 7885)
+   defining Unicode char U+1ECE (decimal 7886)
+   defining Unicode char U+1ECF (decimal 7887)
+   defining Unicode char U+1ED0 (decimal 7888)
+   defining Unicode char U+1ED1 (decimal 7889)
+   defining Unicode char U+1ED2 (decimal 7890)
+   defining Unicode char U+1ED3 (decimal 7891)
+   defining Unicode char U+1ED4 (decimal 7892)
+   defining Unicode char U+1ED5 (decimal 7893)
+   defining Unicode char U+1ED6 (decimal 7894)
+   defining Unicode char U+1ED7 (decimal 7895)
+   defining Unicode char U+1ED8 (decimal 7896)
+   defining Unicode char U+1ED9 (decimal 7897)
+   defining Unicode char U+1EDA (decimal 7898)
+   defining Unicode char U+1EDB (decimal 7899)
+   defining Unicode char U+1EDC (decimal 7900)
+   defining Unicode char U+1EDD (decimal 7901)
+   defining Unicode char U+1EDE (decimal 7902)
+   defining Unicode char U+1EDF (decimal 7903)
+   defining Unicode char U+1EE0 (decimal 7904)
+   defining Unicode char U+1EE1 (decimal 7905)
+   defining Unicode char U+1EE2 (decimal 7906)
+   defining Unicode char U+1EE3 (decimal 7907)
+   defining Unicode char U+1EE4 (decimal 7908)
+   defining Unicode char U+1EE5 (decimal 7909)
+   defining Unicode char U+1EE6 (decimal 7910)
+   defining Unicode char U+1EE7 (decimal 7911)
+   defining Unicode char U+1EE8 (decimal 7912)
+   defining Unicode char U+1EE9 (decimal 7913)
+   defining Unicode char U+1EEA (decimal 7914)
+   defining Unicode char U+1EEB (decimal 7915)
+   defining Unicode char U+1EEC (decimal 7916)
+   defining Unicode char U+1EED (decimal 7917)
+   defining Unicode char U+1EEE (decimal 7918)
+   defining Unicode char U+1EEF (decimal 7919)
+   defining Unicode char U+1EF0 (decimal 7920)
+   defining Unicode char U+1EF1 (decimal 7921)
+   defining Unicode char U+1EF2 (decimal 7922)
+   defining Unicode char U+1EF3 (decimal 7923)
+   defining Unicode char U+1EF4 (decimal 7924)
+   defining Unicode char U+1EF5 (decimal 7925)
+   defining Unicode char U+1EF6 (decimal 7926)
+   defining Unicode char U+1EF7 (decimal 7927)
+   defining Unicode char U+1EF8 (decimal 7928)
+   defining Unicode char U+1EF9 (decimal 7929)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+(/usr/share/texmf-texlive/tex/latex/vntex/vncaps.tex
+File: vncaps.tex 2006/06/07 v1.1 Captions in Vietnamese
+))
+(/usr/share/texmf-texlive/tex/latex/base/latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
+)
+(/usr/share/texmf-texlive/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\@emptytoks=\toks17
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+)
+(/usr/share/texmf-texlive/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2009/06/22 v3.00
+)
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-texlive/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks18
+\ex@=\dimen106
+))
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen107
+)
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count96
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count97
+\leftroot@=\count98
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count99
+\DOTSCASE@=\count100
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen108
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count101
+\c@MaxMatrixCols=\count102
+\dotsspace@=\muskip11
+\c@parentequation=\count103
+\dspbrk@lvl=\count104
+\tag@help=\toks19
+\row@=\count105
+\column@=\count106
+\maxfields@=\count107
+\andhelp@=\toks20
+\eqnshift@=\dimen109
+\alignsep@=\dimen110
+\tagshift@=\dimen111
+\tagwidth@=\dimen112
+\totwidth@=\dimen113
+\lineht@=\dimen114
+\@envbody=\toks21
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(/usr/share/texmf-texlive/tex/latex/geometry/geometry.sty
+Package: geometry 2008/12/21 v4.2 Page Geometry
+\Gm@cnth=\count108
+\Gm@cntv=\count109
+\c@Gm@tempcnt=\count110
+\Gm@bindingoffset=\dimen115
+\Gm@wd@mp=\dimen116
+\Gm@odd@mp=\dimen117
+\Gm@even@mp=\dimen118
+\Gm@dimlist=\toks23
+)
+(/usr/share/texmf-texlive/tex/latex/fancybox/fancybox.sty
+Package: fancybox 2000/09/19 1.3
+
+Style option: `fancybox' v1.3 <2000/09/19> (tvz)
+\@fancybox=\box28
+\shadowsize=\dimen119
+\@Sbox=\box29
+\do@VerbBox=\toks24
+\the@fancyput=\toks25
+\this@fancyput=\toks26
+\EndVerbatimTokens=\toks27
+\Verbatim@Outfile=\write3
+\Verbatim@Infile=\read1
+) (./minted.sty
+Package: minted 2011/09/17 v1.7 Yet another Pygments shim for LaTeX
+ (./fancyvrb.sty
+Package: fancyvrb 1998/07/17
+
+Style option: `fancyvrb' v2.6, with DG/SPQR fixes <1998/07/17> (tvz)
+\FV@CodeLineNo=\count111
+\FV@InFile=\read2
+\FV@TabBox=\box30
+\c@FancyVerbLine=\count112
+\FV@StepNumber=\count113
+\FV@OutFile=\write4
+
+No file fancyvrb.cfg.
+) (./float.sty
+Style-Option: `float' 1.1c 18 Dec 92 (AL)
+\float@type=\count114
+\float@box=\box31
+\@floatcapt=\box32
+) (/usr/share/texmf-texlive/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count115
+\calc@Bcount=\count116
+\calc@Adimen=\dimen120
+\calc@Bdimen=\dimen121
+\calc@Askip=\skip46
+\calc@Bskip=\skip47
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count117
+\calc@Cskip=\skip48
+)
+(./ifplatform.sty
+Package: ifplatform 2009/09/10 v0.3a Testing for the operating system
+ (/usr/share/texmf-texlive/tex/generic/oberdiek/catchfile.sty
+Package: catchfile 2007/11/11 v1.2 Catches the contents of a file (HO)
+)
+runsystem(uname -s > "baocao.w18")...executed.
+
+(./baocao.w18)
+runsystem(rm -- "baocao.w18")...executed.
+
+)
+\minted@bgbox=\box33
+\minted@code=\write5
+\c@listing=\count118
+)
+runsystem(which pygmentize && touch baocao.aex)...executed.
+
+runsystem(rm baocao.aex)...executed.
+
+ (/usr/share/texmf-texlive/tex/latex/ltxmisc/framed.sty
+Package: framed 2007/10/04 v 0.95: framed or shaded text with page breaks
+\fb@frw=\dimen122
+\fb@frh=\dimen123
+\FrameRule=\dimen124
+\FrameSep=\dimen125
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+)
+\Gin@req@height=\dimen126
+\Gin@req@width=\dimen127
+) (./baocao.aux (./bookcover.aux)
+(./preface.aux) (./chapter1.aux) (./chapter2.aux) (./chapter3.aux)
+(./chapter4.aux))
+\openout1 = `baocao.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+ (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count119
+\scratchdimen=\dimen128
+\scratchbox=\box34
+\nofMPsegments=\count120
+\nofMParguments=\count121
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count122
+\MPscratchDim=\dimen129
+\MPnumerator=\count123
+\everyMPtoPDFconversion=\toks29
+)
+Package hyperref Info: Link coloring ON on input line 17.
+ (/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
+Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
+
+(/usr/share/texmf-texlive/tex/latex/oberdiek/refcount.sty
+Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
+)
+\c@section@level=\count124
+)
+LaTeX Info: Redefining \ref on input line 17.
+LaTeX Info: Redefining \pageref on input line 17.
+ (./baocao.out)
+(./baocao.out)
+\@outlinefile=\write6
+\openout6 = `baocao.out'.
+
+\AtBeginShipoutBox=\box35
+
+*geometry auto-detecting driver*
+*geometry detected driver: pdftex*
+-------------------- Geometry parameters
+paper: a4paper
+landscape: --
+twocolumn: --
+twoside: --
+asymmetric: --
+h-parts: 62.59596pt, 472.31595pt, 62.59596pt
+v-parts: 62.59596pt, 719.85492pt, 62.59596pt
+hmarginratio: --
+vmarginratio: --
+lines: --
+heightrounded: --
+bindingoffset: 0.0pt
+truedimen: --
+includehead: --
+includefoot: --
+includemp: --
+driver: pdftex
+-------------------- Page layout dimensions and switches
+\paperwidth  597.50787pt
+\paperheight 845.04684pt
+\textwidth  472.31595pt
+\textheight 719.85492pt
+\oddsidemargin  -9.67403pt
+\evensidemargin -9.67403pt
+\topmargin  -46.67403pt
+\headheight 12.0pt
+\headsep    25.0pt
+\footskip   30.0pt
+\marginparwidth 35.0pt
+\marginparsep   10.0pt
+\columnsep  10.0pt
+\skip\footins  10.8pt plus 4.0pt minus 2.0pt
+\hoffset 0.0pt
+\voffset 0.0pt
+\mag 1000
+
+(1in=72.27pt, 1cm=28.45pt)
+-----------------------
+runsystem(pygmentize -S default -f latex > baocao.pyg)...executed.
+
+(./baocao.pyg)
+\openout2 = `bookcover.aux'.
+
+ (./bookcover.tex
+
+! Package inputenc Error: Unicode char \u8:Ôªø not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 Ôªø
+       \thispagestyle{empty}
+? 
+<logo.jpg, id=127, 101.37875pt x 150.5625pt>
+File: logo.jpg Graphic file (type jpg)
+ <use logo.jpg>
+Underfull \hbox (badness 10000) in paragraph at lines 25--25
+
+ []
+
+) [1
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logo.jpg>]
+(./baocao.toc
+LaTeX Font Info:    Try loading font information for U+lasy on input line 3.
+ (/usr/share/texmf-texlive/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 3.
+
+(/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 3.
+
+(/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+))
+\tf@toc=\write7
+\openout7 = `baocao.toc'.
+
+ [2
+
+
+]
+\openout2 = `preface.aux'.
+
+ (./preface.tex
+
+! Package inputenc Error: Unicode char \u8:Ôªø not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 Ôªø
+       \chapter{L·ªùi n√≥i ƒë·∫ßu}
+? 
+Ch\uhorn \ohorn ng 1.
+) [3
+
+
+]
+\openout2 = `chapter1.aux'.
+
+ (./chapter1.tex
+
+! Package inputenc Error: Unicode char \u8:Ôªø not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 Ôªø
+       \chapter{C√¥ng nh·ªá NodeJS}
+? 
+Ch\uhorn \ohorn ng 2.
+LaTeX Font Info:    Try loading font information for T5+cmtt on input line 3.
+(/usr/share/texmf-texlive/tex/latex/vntex/t5cmtt.fd
+File: t5cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+<io.png, id=176, 456.70625pt x 300.12125pt>
+File: io.png Graphic file (type png)
+ <use io.png>
+Underfull \hbox (badness 10000) in paragraph at lines 3--13
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 14.
+(/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 14.
+File: io.png Graphic file (type png)
+ <use io.png>
+\openout4 = `baocao.pyg'.
+
+ [4
+
+
+
+]
+runsystem(pygmentize -l javascript -f latex -F tokenmerge             -P "verbo
+ptions= " -o baocao.out.pyg baocao.pyg)...executed.
+
+
+(./baocao.out.pyg
+LaTeX Font Info:    Font shape `T5/cmtt/bx/n' in size <12> not available
+(Font)              Font shape `T5/cmtt/m/n' tried instead on input line 2.
+)
+runsystem(rm baocao.out.pyg)...executed.
+
+runsystem(rm baocao.pyg)...executed.
+
+\openout4 = `baocao.pyg'.
+
+
+Overfull \hbox (68.38405pt too wide) in paragraph at lines 41--44
+\T5/cmtt/m/n/12 IO\T5/cmr/m/n/12 , l†m th∏ n†o ^^_∫ khi truy vßn th¸c hiªn xong
+, server bi∏t v† th¸c hiªn h†m \T5/cmtt/m/n/12 ioSomethingWithPost(post)\T5/cmr
+/m/n/12 ?
+ []
+
+runsystem(pygmentize -l javascript -f latex -F tokenmerge             -P "verbo
+ptions= " -o baocao.out.pyg baocao.pyg)...executed.
+
+(./baocao.out.pyg)
+runsystem(rm baocao.out.pyg)...executed.
+
+runsystem(rm baocao.pyg)...executed.
+
+ [5pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.53 
+      <./io.png (PNG copy)>]
+\openout4 = `baocao.pyg'.
+
+runsystem(pygmentize -l javascript -f latex -F tokenmerge             -P "verbo
+ptions= " -o baocao.out.pyg baocao.pyg)...executed.
+
+ (./baocao.out.pyg)
+runsystem(rm baocao.out.pyg)...executed.
+
+runsystem(rm baocao.pyg)...executed.
+
+
+
+! LaTeX Error: \include cannot be nested.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.65 	\include{nodejs_vs_apache}
+                                
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--66
+
+ []
+
+) [6pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.31     \include{chapter1}
+                           ] [7]
+\openout2 = `chapter2.aux'.
+
+ (./chapter2.tex
+
+! Package inputenc Error: Unicode char \u8:Ôªø not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 Ôªø
+       \chapter{C√†i ƒë·∫∑t v√† qu·∫£n l√Ω module trong NodeJS}
+? 
+Ch\uhorn \ohorn ng 3.
+<2_1.PNG, id=201, 384.6872pt x 295.1025pt>
+File: 2_1.PNG Graphic file (type png)
+ <use 2_1.PNG>
+<2_2.PNG, id=203, 382.42876pt x 296.60812pt>
+File: 2_2.PNG Graphic file (type png)
+ <use 2_2.PNG>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--20
+
+ []
+
+[8
+
+
+
+ <./2_1.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 37--41
+
+ []
+
+
+Overfull \hbox (4.53989pt too wide) in paragraph at lines 42--44
+[]\T5/cmr/m/n/12 CÙng c‚ th∫ ch§y mÎt JavaScript t¯ mÎt file. N∏u t§o chÛng ta 
+t§o mÎt file \T5/cmtt/m/n/12 hello_world.js
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--44
+
+ []
+
+[9 <./2_2.PNG>]
+\openout4 = `baocao.pyg'.
+
+runsystem(pygmentize -l javascript -f latex -F tokenmerge            -P linenos
+ -P "verboptions= ,tabsize=4" -o baocao.out.pyg baocao.pyg)...executed.
+
+ (./baocao.out.pyg)
+runsystem(rm baocao.out.pyg)...executed.
+
+runsystem(rm baocao.pyg)...executed.
+
+\openout4 = `baocao.pyg'.
+
+runsystem(pygmentize -l javascript -f latex -F tokenmerge            -P linenos
+ -P "verboptions= ,tabsize=4" -o baocao.out.pyg baocao.pyg)...executed.
+
+ (./baocao.out.pyg)
+runsystem(rm baocao.out.pyg)...executed.
+
+runsystem(rm baocao.pyg)...executed.
+
+ [10]
+\openout4 = `baocao.pyg'.
+
+runsystem(pygmentize -l javascript -f latex -F tokenmerge            -P linenos
+ -P "verboptions= ,tabsize=4" -o baocao.out.pyg baocao.pyg)...executed.
+
+ (./baocao.out.pyg)
+runsystem(rm baocao.out.pyg)...executed.
+
+runsystem(rm baocao.pyg)...executed.
+
+)
+[11]
+\openout2 = `chapter3.aux'.
+
+ (./chapter3.tex
+
+! Package inputenc Error: Unicode char \u8:Ôªø not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 Ôªø
+       \Chapter{L·∫≠p tr√¨nh c∆° b·∫£n NodeJS}
+? 
+! Undefined control sequence.
+l.1 Ôªø\Chapter
+               {L·∫≠p tr√¨nh c∆° b·∫£n NodeJS}
+? 
+[12
+
+
+] <3_3_1.png, id=239, 216.81pt x 85.06781pt>
+File: 3_3_1.png Graphic file (type png)
+ <use 3_3_1.png>
+<3_3_2.png, id=240, 290.58563pt x 92.59593pt>
+File: 3_3_2.png Graphic file (type png)
+ <use 3_3_2.png> [13 <./3_3_1.png (PNG copy)> <./3_3_2.png (PNG copy)>]
+<3_3_3.png, id=247, 265.74281pt x 142.28156pt>
+File: 3_3_3.png Graphic file (type png)
+ <use 3_3_3.png>
+<3_3_4.png, id=248, 130.23656pt x 133.24782pt>
+File: 3_3_4.png Graphic file (type png)
+ <use 3_3_4.png> [14 <./3_3_3.png (PNG copy)>] <3_3_5.png, id=253, 265.74281pt 
+x 142.28156pt>
+File: 3_3_5.png Graphic file (type png)
+ <use 3_3_5.png>
+\openout4 = `baocao.pyg'.
+
+runsystem(pygmentize -l javascript -f latex -F tokenmerge            -P linenos
+ -P "verboptions= ,tabsize=4" -o baocao.out.pyg baocao.pyg)...executed.
+
+
+(./baocao.out.pyg)
+runsystem(rm baocao.out.pyg)...executed.
+
+runsystem(rm baocao.pyg)...executed.
+
+\openout4 = `baocao.pyg'.
+
+runsystem(pygmentize -l javascript -f latex -F tokenmerge            -P linenos
+ -P "verboptions= ,tabsize=4,frame=single" -o baocao.out.pyg baocao.pyg)...exec
+uted.
+
+ (./baocao.out.pyg [15 <./3_3_4.png (PNG copy)> <./3_3_5.png (PNG copy)>])
+runsystem(rm baocao.out.pyg)...executed.
+
+runsystem(rm baocao.pyg)...executed.
+
+ <3_3_6.png, id=260, 652.4375pt x 390.45876pt>
+File: 3_3_6.png Graphic file (type png)
+ <use 3_3_6.png>
+[16 <./3_3_6.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 209--210
+
+ []
+
+<3_3_7.png, id=267, 652.4375pt x 390.45876pt>
+File: 3_3_7.png Graphic file (type png)
+ <use 3_3_7.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--217
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--225
+
+ []
+
+\openout4 = `baocao.pyg'.
+
+runsystem(pygmentize -l javascript -f latex -F tokenmerge            -P linenos
+ -P "verboptions= ,tabsize=4,frame=single" -o baocao.out.pyg baocao.pyg)...exec
+uted.
+
+(./baocao.out.pyg [17])
+runsystem(rm baocao.out.pyg)...executed.
+
+runsystem(rm baocao.pyg)...executed.
+
+\openout4 = `baocao.pyg'.
+
+runsystem(pygmentize -l javascript -f latex -F tokenmerge             -P "verbo
+ptions= " -o baocao.out.pyg baocao.pyg)...executed.
+
+ (./baocao.out.pyg)
+runsystem(rm baocao.out.pyg)...executed.
+
+runsystem(rm baocao.pyg)...executed.
+
+\openout4 = `baocao.pyg'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 257--259
+
+ []
+
+runsystem(pygmentize -l javascript -f latex -F tokenmerge             -P "verbo
+ptions= " -o baocao.out.pyg baocao.pyg)...executed.
+
+(./baocao.out.pyg)
+runsystem(rm baocao.out.pyg)...executed.
+
+runsystem(rm baocao.pyg)...executed.
+
+\openout4 = `baocao.pyg'.
+
+runsystem(pygmentize -l javascript -f latex -F tokenmerge             -P "verbo
+ptions= " -o baocao.out.pyg baocao.pyg)...executed.
+
+ (./baocao.out.pyg [18 <./3_3_7.png (PNG copy)>])
+runsystem(rm baocao.out.pyg)...executed.
+
+runsystem(rm baocao.pyg)...executed.
+
+\openout4 = `baocao.pyg'.
+
+runsystem(pygmentize -l javascript -f latex -F tokenmerge            -P linenos
+ -P "verboptions= " -o baocao.out.pyg baocao.pyg)...executed.
+
+
+(./baocao.out.pyg)
+runsystem(rm baocao.out.pyg)...executed.
+
+runsystem(rm baocao.pyg)...executed.
+
+\openout4 = `baocao.pyg'.
+
+runsystem(pygmentize -l minted -f latex -F tokenmerge            -P linenos -P 
+"verboptions= " -o baocao.out.pyg baocao.pyg)...executed.
+
+ (./baocao.out.pyg)
+runsystem(rm baocao.out.pyg)...executed.
+
+runsystem(rm baocao.pyg)...executed.
+
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.308 			\begin
+               {minted}[linenos=true]{minted}
+? 
+\openout4 = `baocao.pyg'.
+
+runsystem(pygmentize -l minted -f latex -F tokenmerge            -P linenos -P 
+"verboptions= " -o baocao.out.pyg baocao.pyg)...executed.
+
+(./baocao.out.pyg)
+runsystem(rm baocao.out.pyg)...executed.
+
+runsystem(rm baocao.pyg)...executed.
+
+\openout4 = `baocao.pyg'.
+
+runsystem(pygmentize -l javascript -f latex -F tokenmerge            -P linenos
+ -P "verboptions= " -o baocao.out.pyg baocao.pyg)...executed.
+
+ (./baocao.out.pyg)
+runsystem(rm baocao.out.pyg)...executed.
+
+runsystem(rm baocao.pyg)...executed.
+
+\openout4 = `baocao.pyg'.
+
+runsystem(pygmentize -l javascript -f latex -F tokenmerge             -P "verbo
+ptions= " -o baocao.out.pyg baocao.pyg)...executed.
+
+ (./baocao.out.pyg [19])
+runsystem(rm baocao.out.pyg)...executed.
+
+runsystem(rm baocao.pyg)...executed.
+
+\openout4 = `baocao.pyg'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 337--339
+
+ []
+
+runsystem(pygmentize -l javascript -f latex -F tokenmerge            -P linenos
+ -P "verboptions= " -o baocao.out.pyg baocao.pyg)...executed.
+
+(./baocao.out.pyg)
+runsystem(rm baocao.out.pyg)...executed.
+
+runsystem(rm baocao.pyg)...executed.
+
+\openout4 = `baocao.pyg'.
+
+runsystem(pygmentize -l javascript -f latex -F tokenmerge            -P linenos
+ -P "verboptions= " -o baocao.out.pyg baocao.pyg)...executed.
+
+ (./baocao.out.pyg)
+runsystem(rm baocao.out.pyg)...executed.
+
+runsystem(rm baocao.pyg)...executed.
+
+\openout4 = `baocao.pyg'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 352--354
+
+ []
+
+runsystem(pygmentize -l javascript -f latex -F tokenmerge             -P "verbo
+ptions= " -o baocao.out.pyg baocao.pyg)...executed.
+
+(./baocao.out.pyg)
+runsystem(rm baocao.out.pyg)...executed.
+
+runsystem(rm baocao.pyg)...executed.
+
+\openout4 = `baocao.pyg'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 357--359
+
+ []
+
+runsystem(pygmentize -l javascript -f latex -F tokenmerge             -P "verbo
+ptions= " -o baocao.out.pyg baocao.pyg)...executed.
+
+(./baocao.out.pyg)
+runsystem(rm baocao.out.pyg)...executed.
+
+runsystem(rm baocao.pyg)...executed.
+
+\openout4 = `baocao.pyg'.
+
+runsystem(pygmentize -l javascript -f latex -F tokenmerge             -P "verbo
+ptions= " -o baocao.out.pyg baocao.pyg)...executed.
+
+ (./baocao.out.pyg)
+runsystem(rm baocao.out.pyg)...executed.
+
+runsystem(rm baocao.pyg)...executed.
+
+) [20]
+\openout2 = `chapter4.aux'.
+
+ (./chapter4.tex
+
+! Package inputenc Error: Unicode char \u8:Ôªø not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 Ôªø
+       \chapter{V√≠ d·ª• minh h·ªça v·ªõi NodeJS}
+? 
+Ch\uhorn \ohorn ng 4.
+<4_1.png, id=290, 667.49374pt x 390.45876pt>
+File: 4_1.png Graphic file (type png)
+ <use 4_1.png>
+\openout4 = `baocao.pyg'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--34
+
+ []
+
+[21
+
+
+
+ <./4_1.png (PNG copy)>]
+runsystem(pygmentize -l javascript -f latex -F tokenmerge            -P linenos
+ -P "verboptions= ,frame=single" -o baocao.out.pyg baocao.pyg)...executed.
+
+ (./baocao.out.pyg)
+runsystem(rm baocao.out.pyg)...executed.
+
+runsystem(rm baocao.pyg)...executed.
+
+\openout4 = `baocao.pyg'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--42
+
+ []
+
+runsystem(pygmentize -l javascript -f latex -F tokenmerge            -P linenos
+ -P "verboptions= ,frame=single,tabsize=4" -o baocao.out.pyg baocao.pyg)...exec
+uted.
+
+(./baocao.out.pyg)
+runsystem(rm baocao.out.pyg)...executed.
+
+runsystem(rm baocao.pyg)...executed.
+
+\openout4 = `baocao.pyg'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--58
+
+ []
+
+runsystem(pygmentize -l javascript -f latex -F tokenmerge            -P linenos
+ -P "verboptions= ,frame=single,tabsize=4" -o baocao.out.pyg baocao.pyg)...exec
+uted.
+
+(./baocao.out.pyg)
+runsystem(rm baocao.out.pyg)...executed.
+
+runsystem(rm baocao.pyg)...executed.
+
+\openout4 = `baocao.pyg'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--79
+
+ []
+
+[22]
+runsystem(pygmentize -l javascript -f latex -F tokenmerge            -P linenos
+ -P "verboptions= ,frame=single,tabsize=4" -o baocao.out.pyg baocao.pyg)...exec
+uted.
+
+ (./baocao.out.pyg)
+runsystem(rm baocao.out.pyg)...executed.
+
+runsystem(rm baocao.pyg)...executed.
+
+\openout4 = `baocao.pyg'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--87
+
+ []
+
+runsystem(pygmentize -l javascript -f latex -F tokenmerge            -P linenos
+ -P "verboptions= ,frame=single,tabsize=4" -o baocao.out.pyg baocao.pyg)...exec
+uted.
+
+(./baocao.out.pyg)
+runsystem(rm baocao.out.pyg)...executed.
+
+runsystem(rm baocao.pyg)...executed.
+
+\openout4 = `baocao.pyg'.
+
+runsystem(pygmentize -l javascript -f latex -F tokenmerge            -P linenos
+ -P "verboptions= ,frame=single,tabsize=4" -o baocao.out.pyg baocao.pyg)...exec
+uted.
+
+ (./baocao.out.pyg)
+runsystem(rm baocao.out.pyg)...executed.
+
+runsystem(rm baocao.pyg)...executed.
+
+\openout4 = `baocao.pyg'.
+
+runsystem(pygmentize -l javascript -f latex -F tokenmerge            -P linenos
+ -P "verboptions= " -o baocao.out.pyg baocao.pyg)...executed.
+
+ (./baocao.out.pyg)
+runsystem(rm baocao.out.pyg)...executed.
+
+runsystem(rm baocao.pyg)...executed.
+
+\openout4 = `baocao.pyg'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--134
+
+ []
+
+runsystem(pygmentize -l javascript -f latex -F tokenmerge            -P linenos
+ -P "verboptions= ,frame=single,tabsize=4" -o baocao.out.pyg baocao.pyg)...exec
+uted.
+
+(./baocao.out.pyg [23])
+runsystem(rm baocao.out.pyg)...executed.
+
+runsystem(rm baocao.pyg)...executed.
+
+\openout4 = `baocao.pyg'.
+
+runsystem(pygmentize -l javascript -f latex -F tokenmerge            -P linenos
+ -P "verboptions= ,frame=single,tabsize=4" -o baocao.out.pyg baocao.pyg)...exec
+uted.
+
+ (./baocao.out.pyg)
+runsystem(rm baocao.out.pyg)...executed.
+
+runsystem(rm baocao.pyg)...executed.
+
+\openout4 = `baocao.pyg'.
+
+runsystem(pygmentize -l javascript -f latex -F tokenmerge            -P linenos
+ -P "verboptions= ,frame=single,tabsize=4" -o baocao.out.pyg baocao.pyg)...exec
+uted.
+
+ (./baocao.out.pyg)
+runsystem(rm baocao.out.pyg)...executed.
+
+runsystem(rm baocao.pyg)...executed.
+
+\openout4 = `baocao.pyg'.
+
+runsystem(pygmentize -l javascript -f latex -F tokenmerge            -P linenos
+ -P "verboptions= ,frame=single,tabsize=4" -o baocao.out.pyg baocao.pyg)...exec
+uted.
+
+ (./baocao.out.pyg [24])
+runsystem(rm baocao.out.pyg)...executed.
+
+runsystem(rm baocao.pyg)...executed.
+
+) [25]
+No file baocao.bbl.
+(./baocao.aux (./bookcover.aux) (./preface.aux) (./chapter1.aux)
+(./chapter2.aux) (./chapter3.aux) (./chapter4.aux)) ) 
+Here is how much of TeX's memory you used:
+ 9096 strings out of 495061
+ 118762 string characters out of 1182621
+ 197416 words of memory out of 3000000
+ 11900 multiletter control sequences out of 15000+50000
+ 21776 words of font info for 50 fonts, out of 3000000 for 9000
+ 28 hyphenation exceptions out of 8191
+ 38i,8n,40p,1117b,523s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/
+fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1
+/vntex/vnr/vnbx12.pfb></usr/share/texmf-texlive/fonts/type1/vntex/vnr/vnitt10.p
+fb></usr/share/texmf-texlive/fonts/type1/vntex/vnr/vnr12.pfb></usr/share/texmf-
+texlive/fonts/type1/vntex/vnr/vnr17.pfb></usr/share/texmf-texlive/fonts/type1/v
+ntex/vnr/vnr6.pfb></usr/share/texmf-texlive/fonts/type1/vntex/vnr/vnti12.pfb></
+usr/share/texmf-texlive/fonts/type1/vntex/vnr/vntt12.pfb>
+Output written on baocao.pdf (25 pages, 483100 bytes).
+PDF statistics:
+ 357 PDF objects out of 1000 (max. 8388607)
+ 77 named destinations out of 1000 (max. 500000)
+ 309 words of extra memory for PDF output out of 10000 (max. 10000000)
+

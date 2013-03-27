@@ -1,0 +1,44 @@
+
+\documentclass[a4paper,12pt]{report}
+\usepackage{xcolor}
+\usepackage{color}
+\usepackage[unicode]{hyperref}
+%\usepackage[nottoc,numbib]{tocbibind}
+\hypersetup{colorlinks=true, urlcolor=green, linkcolor=black, unicode=true}
+%\usepackage[utf8]{inputenc}
+\usepackage[utf8]{vietnam}
+\usepackage{latexsym, amsfonts, amssymb, amsmath}
+\usepackage[margin=2.2cm]{geometry}
+\usepackage{fancybox}
+\usepackage{minted}
+%\usepackage{frame}
+\usepackage{framed}
+\usepackage{graphicx}
+\begin{document}
+
+% ========= Book cover ===========================================
+	\include{bookcover}
+
+%======== Preface ================================================
+	\include{preface}
+
+%================Chuong 1: Công nhệ NodeJS ========================
+    \include{chapter1}
+	
+%======================Chaper2: Cài đặt và quản lý module trong NodeJS =============
+	\include{chapter2}
+
+%=====================Chaper3: Lập trình cơ bản NodeJS==============================
+	\include{chapter3}
+
+%=======================Chapter4: Ví dụ minh họa với NodeJS ========================
+	\include{chapter4}
+	
+%======================REFERENCE================================
+
+\bibliographystyle{plain}
+\bibliography{reference}
+
+%==================================finish=========================
+
+\end{document}
